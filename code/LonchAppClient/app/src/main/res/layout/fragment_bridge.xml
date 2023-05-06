@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.BridgeFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_layout">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:stretchColumns="1"
+            android:layout_margin="3dp"
+            >
+            <TableRow>
+                <TextView
+                    android:id="@+id/command_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AppCallWeb命令："
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/command_text"
+                    android:text="netStatusChanged 通知前端网络状态改变" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/command_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="输入参数："
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:id="@+id/command_input_text"
+                    android:text="{ \n  data:{ status:1 } \n }" />
+            </TableRow>
+            <TableRow>
+                <TextView></TextView>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发送消息给H5"
+                    android:background="@color/light_blue_600"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/result_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返回值："
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:id="@+id/result_name_text"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,56 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://jitpack.io' }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public"}
+        maven { url "https://mirrors.tencent.com/repository/maven/liteavsdk" }
+        maven { url "https://mirrors.tencent.com/nexus/repository/maven-public/" }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/releases/'}
+        maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { url 'https://developer.huawei.com/repo/'}
+        //阿里云镜像
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven {//该仓库是云诊室用的一些组件
+            credentials {
+                username '6010394995a53539a77a7bac'
+                password '5Es9P[kBr=K0'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2003832-release-kPGJk2/'
+        }
+
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        maven { url 'https://jitpack.io' }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public"}
+        maven { url "https://mirrors.tencent.com/repository/maven/liteavsdk" }
+        maven { url "https://mirrors.tencent.com/nexus/repository/maven-public/" }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/releases/'}
+        maven { url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { url 'https://developer.huawei.com/repo/'}
+        //阿里云镜像
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven {//该仓库是云诊室用的一些组件
+            credentials {
+                username '6010394995a53539a77a7bac'
+                password '5Es9P[kBr=K0'
+            }
+            url 'https://packages.aliyun.com/maven/repository/2003832-release-kPGJk2/'
+        }
+
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Client"
+include ':app'

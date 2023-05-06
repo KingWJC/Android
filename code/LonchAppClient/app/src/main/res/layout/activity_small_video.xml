@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SmallVideoActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager">
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <ImageView
+        android:layout_width="@dimen/dimens_25"
+        android:layout_height="@dimen/dimens_25"
+        android:id="@+id/close"
+        android:layout_marginEnd="@dimen/dimens_20"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/icon_test"
+        android:layout_marginTop="@dimen/dimens_20">
+    </ImageView>
+
+</RelativeLayout>

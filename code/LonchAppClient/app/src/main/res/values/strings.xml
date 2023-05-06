@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Lonch Client Demo</string>
+    <string name="guide_jump">跳过</string>
+    <string name="privacy_title">用户隐私政策</string>
+    <string name="privacy_btn_sure">同意</string>
+    <string name="privacy_btn_cancel">不同意</string>
+    <string name="loading_resources">资源加载中</string>
+    <string name="button">给H5发消息</string>
+    <string name="title_activity_login">Client Demo</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_code">验证码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="loading_hhr">加载中，请稍候...</string>
+    <string name="net_error_text">连接服务器失败，请重新加载!</string>
+    <string name="refresh">刷新</string>
+    <string name="net_error_404">很抱歉，您访问的页面不存在</string>
+    <string name="local_web_server_error_text">本地服务器启动失败，请重新加载!</string>
+    <string name="net_error">连接服务器失败，请重新加载!</string>
+    <string name="txt_access_token_error">获取token失败!</string>
+
+    <string name="lonch_text_yunzhu">高毛控销</string>
+    <string name="error_activity_wx_no_install">您没有安装微信，请安装后重试</string>
+    <string name="error_activity_alipay_no_install">您没有安装支付宝，请安装后重试</string>
+    <string name="login_tips_agree_user_instructions">请同意用户服务和隐私政策</string>
+
+    <string name="login_token_tips_error">获取token失败</string>
+    <string name="common_please_input_roomid_and_userid">用户没有允许需要的权限，加入直播失败</string>
+    <string name="txt_query_third_module_purview_failed">加载第三方模块出错</string>
+
+    <string name="live_title">TRTC 视频互动直播示例</string>
+    <string name="live_please_select_role">请选择角色（必填项）</string>
+    <string name="live_room_input_error_tip">房间号和用户名不能为空</string>
+    <string name="live_mute">静音</string>
+    <string name="live_video_item">视频选项</string>
+    <string name="live_audio_item">音频选项</string>
+    <string name="live_operator">操作</string>
+    <string name="live_user_back_camera">使用后置摄像头</string>
+    <string name="live_user_front_camera">使用前置摄像头</string>
+    <string name="live_open_camera">打开摄像头</string>
+    <string name="live_close_camera">关闭摄像头</string>
+    <string name="live_mute_audio">已静音</string>
+    <string name="live_close_mute_audio">取消静音</string>
+    <string name="live_use_speaker">使用扬声器</string>
+    <string name="live_use_receiver">使用听筒</string>
+    <string name="live_enter_room">进入房间</string>
+    <string name="live_please_input_userid">请输入用户名（必填项）</string>
+    <string name="live_please_input_roomid">请输入房间号（必填项）</string>
+    <string name="live_audience">观众</string>
+    <string name="live_anchor">主播</string>
+    <string name="live_roomid">房间号:</string>
+    <string name="live_close_mic">关闭麦克风</string>
+    <string name="live_open_mic">打开麦克风</string>
+    <string name="screenshare_start_failed">"启动屏幕共享失败"</string>
+    <string name="screenshare_permission_toast">请在设置-权限设置里打开悬浮窗权限</string>
+    <string name="update_app_error">升级包下载失败,请重试</string>
+    <string name="dialog_pwd_tips">请输入房间密码</string>
+    <string name="login_account">账&#12288;号</string>
+    <string name="login_pwd">密&#12288;码</string>
+    <string name="live_room_kick_tips">管理员请您暂时离开直播间，如需进入请联系在线客服</string>
+    <string name="live_room_check_tips">主播没开放这个房间噢，如需进入请联系在线客服</string>
+    <string name="live_allow_live">该直播间只允许三位观众连麦，请您稍后在试</string>
+    <string name="live_sign_error">获取直播签名失败,请退出重试</string>
+    <string name="live_chat_room_error">初始话聊天房间失败,请退出重试</string>
+    <string name="live_im_error">聊天登录失败,请退出重试</string>
+    <string name="live_picture">您的手机暂时不支持画中画模式</string>
+    <string name="live_trtc_disable">后台已关闭直播</string>
+
+    <string name="page_register_send_verify_failed">验证码发送失败</string>
+    <string name="page_register_send_verify_success">验证码发送成功</string>
+    <string name="page_register_verify_button_prompt">点击后重新发送</string>
+    <string name="page_register_verify_button_prompt_count">秒后重新发送</string>
+    <string name="page_register_autologin_failure">登录失败</string>
+    <string name="phone_number_error">手机号输入有误</string>
+    <string name="error_send_sms_count_limit">操作太频繁啦，稍后再试吧～</string>
+    <string name="page_forget_error_point_request_more_minute">请求过于频繁,请1分钟以后再试</string>
+    <string name="page_forget_error_point_request_more_hour">请求过于频繁,请1小时以后再试</string>
+
+    <string name="page_login_connect_wifi">请连接网络</string>
+    <string name="page_login_phone_not_null">手机号不能为空</string>
+    <string name="page_login_passwd_not_null">密码不能为空</string>
+    <string name="page_login_code_not_null">验证码不能为空</string>
+    <string name="data_tip_not_more">没有更多</string>
+    <string name="data_tip_login_success">登录成功</string>
+    <string name="message">You can now access the Android Web Server from a browser connected to the same wifi network.</string>
+    <string name="dialog_exit_message">Android Web Server is currently running. If you exit the application we will stop it. Are sure you want to exit the application?</string>
+    <string name="warning">Warning</string>
+    <string name="wifi_message">You must connect to a WiFi network to use this service.</string>
+
+    <string name="gun_connected">扫码枪已连接</string>
+    <string name="please_upgrade_the_system_to_the_latest_version">操作系统版本过低，请升级系统至最新版本。</string>
+    <string name="scanning">扫描设备&#8230;</string>
+    <string name="select_device">选择以设备连接</string>
+    <string name="none_found">搜索不到设备</string>
+    <string name="has_paired">已配对</string>
+    <string name="not_paired">未配对</string>
+    <string name="rePaire_connect">重新配对并连接</string>
+    <string name="paire_connect">配对并连接</string>
+    <string name="connect_paired">连接</string>
+    <string name="select_options">选择操作</string>
+    <string name="bt_not_enabled">蓝牙没有启动</string>
+    <string name="bt_success_enabled">蓝牙启动成功</string>
+    <string name="scannewdevice">刷新</string>
+    <string name="bt_disconnect_waiting_reconnect">蓝牙已经断开连接,请重新连接</string>
+    <string name="title_activity_small_video">SmallVideoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="video_list_error">获取视频失败,请退出重试</string>
+
+    <string name="txt_guest_login">游客访问</string>
+    <string name="txt_h5_protocol_not_achieved">此协议还木有实现哦</string>
+    <string name="error_tips">请重试</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

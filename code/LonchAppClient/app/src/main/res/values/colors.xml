@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="yfc_background_activity_dialog">#F4F2F3</color>
+    <color name="yfc_white">#ffffff</color>
+    <color name="yfc_textcharge">#666</color>
+    <color name="yfc_main_color">#51AFC9</color>
+    <color name="yfc_line_prescription">#E5E5E5</color>
+    <color name="bg_menu_options_press">#47CDE5</color>
+    <color name="bg_menu_options_normal">#FFFFFF</color>
+
+
+    <color name="colorPrimary">#0078D7</color>
+    <color name="colorPrimaryDark">#60000000</color>
+    <color name="colorAccent">#0078D7</color>
+    <color name="color_enable_text">#A7A7A7</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+
+    <color name="colorPrimaryLight">#555555</color>
+    <!-- APP GENERAL -->
+    <color name="colorRed">#F44336</color>
+
+    <color name="colorGreen">#4CAF50</color>
+    <color name="transparent">#00000000</color>
+    <color name="c_777777">#00f</color>
+    <!-- 灰色2 -->
+    <color name="color_gray3">#b5b5b5</color>
+    <!--带透明度区域-->
+    <color name="cor_00000000">#00000000</color>
+    <color name="cor_04000033">#04000033</color>
+    <color name="cor_0f000000">#0f000000</color>
+    <color name="cor_33000000">#33000000</color>
+    <color name="cor_33888888">#33888888</color>
+    <color name="cor_44ffffff">#44ffffff</color>
+    <color name="cor_66000000">#66000000</color>
+    <color name="cor_99000000">#99000000</color>
+    <color name="cor_b4000000">#b4000000</color>
+    <color name="cor_ff000000">#ff000000</color>
+    <color name="cor_ff444444">#ff444444</color>
+    <color name="cor_ffd7d7d7">#ffd7d7d7</color>
+    <color name="cor_ffdfdfdf">#ffdfdfdf</color>
+    <color name="cor_ffffffff">#ffffffff</color>
+    <color name="transparent_80">#b4000000</color>
+    <color name="text_999">#999999</color>
+    <color name="main_color">#F92800</color>
+    <color name="black_231815">#231815</color>
+    <color name="black_595957">#595957</color>
+
+    <color name="live_main_bg">#1B1B1B</color>
+    <color name="live_text">#555555</color>
+    <color name="live_green_bg">#34c759</color>
+    <color name="live_bottom_dialog_blue">#037BFF</color>
+    <color name="live_bottom_dialog_gray">#8F8F8F</color>
+    <color name="live_title_bg">#B7B7B7</color>
+    <color name="live_single_select_button_bg">#34c759</color>
+    <color name="live_single_select_button_bg_off">#999999</color>
+    <color name="common_green_bg">#34c759</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="main_left_background">#51B0C9</color>
+    <color name="main_left_radiobutton_state_checked_true">#3c6070</color>
+    <color name="text333">#333333</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:id="@+id/id_main_title_right_news"
+    >
+    <ImageView
+        android:id="@+id/id_main_title_right_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        />
+    <TextView
+        android:id="@+id/id_main_title_right_unread_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_main_title_unread_news"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:text="0"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+</RelativeLayout>
